@@ -1,6 +1,5 @@
 var request = require('request'),
-    wrapCallback = require('request-callback-wrapper'),
-    safeParse = require('safe-json-parse/callback');
+    wrapCallback = require('request-callback-wrapper');
 
 var IDCodes = {
     tas: 'IDT60801',
